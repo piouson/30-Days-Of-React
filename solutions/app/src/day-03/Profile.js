@@ -1,8 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCheckCircle, faClock
-} from "@fortawesome/free-regular-svg-icons";
+  faCheckCircle,
+  faClock
+} from "@fortawesome/free-solid-svg-icons";
 import "./Profile.css";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 
