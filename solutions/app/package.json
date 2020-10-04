@@ -36,5 +36,11 @@
     "@fortawesome/free-brands-svg-icons": "^5.15.0",
     "@fortawesome/free-solid-svg-icons": "^5.15.0",
     "@fortawesome/react-fontawesome": "^0.1.11"
-  }
+  },
+  "homepage": "https://piouson.github.io/30-Days-Of-React",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piouson/30-Days-Of-React.git"
+  },
+  "author": "piouson"
 }
