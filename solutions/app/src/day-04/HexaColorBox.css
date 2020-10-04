@@ -1,0 +1,10 @@
+.color-boxes {
+  text-align: center;
+  font-weight: bold;
+  color: snow;
+}
+
+.color-box {
+  padding: 1rem;
+  height: auto;
+}

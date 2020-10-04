@@ -1,0 +1,47 @@
+.card {
+  padding: 0.5rem 1rem;
+}
+
+.profile-box h2 {
+  color: #4d4d4d;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+}
+
+.profile-box p {
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  color: #808080;
+}
+
+.profile-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 0.4rem;
+}
+
+.profile .fa-react {
+  font-size: 6rem;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.profile {
+  margin-bottom: 1.5rem;
+}
+
+.profile .fa-check-circle {
+  color: blueviolet;
+}
+
+.skill-item {
+  font-family: monospace;
+  font-size: 0.8rem;
+  background-color: blueviolet;
+  color: #f2f2f2;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 3px 5px;
+  margin: 5px;
+  text-align:center
+}
