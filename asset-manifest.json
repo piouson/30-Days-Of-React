@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/30-Days-Of-React/static/css/main.f8169abe.chunk.css",
+    "main.js": "/30-Days-Of-React/static/js/main.8c8f6ce5.chunk.js",
+    "main.js.map": "/30-Days-Of-React/static/js/main.8c8f6ce5.chunk.js.map",
+    "runtime-main.js": "/30-Days-Of-React/static/js/runtime-main.f540f125.js",
+    "runtime-main.js.map": "/30-Days-Of-React/static/js/runtime-main.f540f125.js.map",
+    "static/js/2.155a8872.chunk.js": "/30-Days-Of-React/static/js/2.155a8872.chunk.js",
+    "static/js/2.155a8872.chunk.js.map": "/30-Days-Of-React/static/js/2.155a8872.chunk.js.map",
+    "index.html": "/30-Days-Of-React/index.html",
+    "precache-manifest.478d077bf478e48fc3fd5423d095f11e.js": "/30-Days-Of-React/precache-manifest.478d077bf478e48fc3fd5423d095f11e.js",
+    "service-worker.js": "/30-Days-Of-React/service-worker.js",
+    "static/css/main.f8169abe.chunk.css.map": "/30-Days-Of-React/static/css/main.f8169abe.chunk.css.map",
+    "static/js/2.155a8872.chunk.js.LICENSE.txt": "/30-Days-Of-React/static/js/2.155a8872.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f540f125.js",
+    "static/js/2.155a8872.chunk.js",
+    "static/css/main.f8169abe.chunk.css",
+    "static/js/main.8c8f6ce5.chunk.js"
+  ]
+}
