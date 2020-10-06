@@ -1,0 +1,9 @@
+.app {
+  height: 100vh;
+}
+
+.box {
+  margin: 1rem;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+}

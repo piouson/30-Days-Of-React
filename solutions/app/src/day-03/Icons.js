@@ -1,29 +1,36 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3Alt,
+  faJs,
+  faReact
+} from "@fortawesome/free-brands-svg-icons";
 import "./Icons.css";
 
 const techTitle = "Front End Technologies";
 
 const htmlDiv = (
   <div>
-    <i className="fab fa-html5" />
+    <FontAwesomeIcon icon={faHtml5} />
   </div>
 );
 
 const cssDiv = (
   <div>
-    <i className="fab fa-css3-alt" />
+    <FontAwesomeIcon icon={faCss3Alt} />
   </div>
 );
 
 const jsDiv = (
   <div>
-    <i className="fab fa-js" />
+    <FontAwesomeIcon icon={faJs} />
   </div>
 );
 
 const reactDiv = (
   <div>
-    <i className="fab fa-react" />
+    <FontAwesomeIcon icon={faReact} />
   </div>
 );
 
@@ -36,11 +43,11 @@ const icons = (
   </div>
 );
 
-const IconsBox = (
+const iconsBox = (
   <div className="box icons-box">
     <h1>{techTitle}</h1>
     {icons}
   </div>
 );
 
-export default IconsBox;
+export default iconsBox;

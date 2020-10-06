@@ -1,4 +1,5 @@
 import React from "react";
+import "./Form.css";
 
 const signupForm = (
   <form className="signup-form">
@@ -31,6 +32,6 @@ const signupContent = (
   </div>
 );
 
-const SignupBox = <div className="box signup-box">{signupContent}</div>;
+const signupBox = <div className="box signup-box">{signupContent}</div>;
 
-export default SignupBox;
+export default signupBox;

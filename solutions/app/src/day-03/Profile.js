@@ -1,5 +1,11 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faCheckCircle,
+  faClock
+} from "@fortawesome/free-solid-svg-icons";
 import "./Profile.css";
+import { faReact } from "@fortawesome/free-brands-svg-icons";
 
 const skillsTitle = "Skills";
 const authorName = "Piouson";
@@ -30,9 +36,9 @@ const authorSkills = [
 
 const profile = (
   <div className="profile">
-    <i className="fab fa-react" />
+    <FontAwesomeIcon icon={faReact} />
     <h2>
-      {authorName} <i className="fas fa-check-circle"></i>
+      {authorName} <FontAwesomeIcon icon={faCheckCircle} />
     </h2>
     <p>
       {authorRole}, {authorLocation}
@@ -51,7 +57,7 @@ const skills = (
     <h2>{skillsTitle}</h2>
     <p>{skillsItems}</p>
     <p>
-      <i className="far fa-clock"></i> Joined on {authorDateJoined}
+      <FontAwesomeIcon icon={faClock} /> Joined on {authorDateJoined}
     </p>
   </div>
 );
@@ -63,6 +69,10 @@ const profileCard = (
   </div>
 );
 
-const ProfileBox = <div className="box profile-box">{profileCard}</div>;
+function ProfileBox() {
+  return (
+    <div className="box profile-box">{profileCard}</div>
+  );
+}
 
 export default ProfileBox;
