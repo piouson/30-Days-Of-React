@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto:wght@300&display=swap');
+
+.number-grid {
+  font-family: Electrolize, sans-serif;
+  font-size: 1.4rem;;
+}
+
+.number-grid > p {
+  font-family: Roboto, sans-serif;
+}

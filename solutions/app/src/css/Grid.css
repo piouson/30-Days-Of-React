@@ -1,0 +1,18 @@
+.hexa-grid {
+  display: grid;
+  margin: 5px auto;
+  text-align: center;
+  justify-content: center;
+  width: 55vw;
+}
+
+.hexa-cell {
+  width: 7vw;
+  height: 7vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid snow;
+  border-bottom: 1px solid snow;
+  color: snow;
+}

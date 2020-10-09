@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.chart {
+  text-align: center;
+}
+
+.chart > h3 {
+  font-family: Roboto, sans-serif;
+}
+
+.chart > p {
+  margin: 0.2rem 0 1rem;
+  font-size: 0.8rem;
+}
+
+.bar-row {
+  display: flex;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+}
+
+.bar-label {
+  flex: 1 1 0;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  align-self: center;
+  text-align: left;
+}
+
+.bar {
+  flex: 10 1 auto;
+  background-color: #dddddd;
+  color: transparent;
+  border-radius: 3px;
+  margin: 2px 5px;
+}
+
+.bar-fill {
+  background-color: #808080;
+  border-radius: 3px;
+}
+
+.bar-value {
+  flex: 1 1 0;
+  font-size: 0.7rem;
+  align-self: center;
+  text-align: left;
+}

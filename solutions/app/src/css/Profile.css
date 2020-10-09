@@ -20,10 +20,12 @@
   border-radius: 0.4rem;
 }
 
-.profile .fa-react {
+.profile > svg {
   font-size: 6rem;
   border-radius: 50%;
   background-color: black;
+  color: #fff;
+  border: 3px solid black;
 }
 
 .profile {

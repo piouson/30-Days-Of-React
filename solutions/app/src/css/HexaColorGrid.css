@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Roboto:wght@300&display=swap');
+
+.hexa-color-grid {
+  font-family: Electrolize, sans-serif;
+  font-size: 1.4rem;;
+}
+
+.hexa-color-grid > p {
+  font-family: Roboto, sans-serif;
+}
+
+.hexa-color-grid .hexa-cell {
+  font-family: Roboto, sans-serif;
+  font-size: 0.9rem;
+}
